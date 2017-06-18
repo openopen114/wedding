@@ -1,0 +1,20 @@
+@import "../../styles.scss";
+
+
+nav{  
+	background-color: rgba(255,255,255,0);
+	box-shadow:none; 
+	position: absolute;
+	top: 8px;
+	z-index: 99;
+}
+
+.brand-logo{
+	// 360 by 51
+	img{
+		width: 208px;
+		height: 30px;
+		margin-left: 100px; 
+		@media screen and (max-width: $TabletScreenWidth){margin-left:  0px; }
+	}
+}

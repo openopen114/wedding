@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {SimplePageScrollConfig} from 'ng2-simple-page-scroll';
+
 
 @Component({
   selector: 'app-hero-bg',

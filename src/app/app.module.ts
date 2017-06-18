@@ -4,21 +4,25 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { MaterializeModule } from 'angular2-materialize';
- 
+import { ScrollToModule } from 'ng2-scroll-to';
+
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { HeroBGComponent } from './hero-bg/hero-bg.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    HeroBGComponent
+    HeroBGComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule, 
+    ScrollToModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

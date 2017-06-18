@@ -10,13 +10,15 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { HeroBGComponent } from './hero-bg/hero-bg.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { VideoComponent } from './video/video.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     HeroBGComponent,
-    GalleryComponent
+    GalleryComponent,
+    VideoComponent
   ],
   imports: [
     BrowserModule,

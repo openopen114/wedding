@@ -11,6 +11,7 @@ import { NavComponent } from './nav/nav.component';
 import { HeroBGComponent } from './hero-bg/hero-bg.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { VideoComponent } from './video/video.component';
+import { CalendarComponent } from './calendar/calendar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { VideoComponent } from './video/video.component';
     NavComponent,
     HeroBGComponent,
     GalleryComponent,
-    VideoComponent
+    VideoComponent,
+    CalendarComponent
   ],
   imports: [
     BrowserModule,

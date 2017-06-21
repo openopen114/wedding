@@ -1,0 +1,25 @@
+@import "../../styles.scss";
+
+.footer{
+	display: flex;
+	justify-content:flex-end;
+	align-items:center; 
+	width: 100vw;
+	height: 60px;
+	// margin-top: -20px; 
+	background-color: #78909C;
+	h1{
+		color:#fff;
+		font-family: 'Poiret One', cursive;
+		font-size: 13px;
+		margin-right: 38px; 
+	}
+
+	@media screen and (max-width: $TabletScreenWidth){
+		 
+	}
+
+	@media screen and (max-width: $MobileScreenWidth){
+		h1{margin-right: 10px}
+	}
+}

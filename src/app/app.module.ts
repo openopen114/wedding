@@ -12,6 +12,7 @@ import { HeroBGComponent } from './hero-bg/hero-bg.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { VideoComponent } from './video/video.component';
 import { CalendarComponent } from './calendar/calendar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CalendarComponent } from './calendar/calendar.component';
     HeroBGComponent,
     GalleryComponent,
     VideoComponent,
-    CalendarComponent
+    CalendarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

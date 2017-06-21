@@ -7,4 +7,12 @@
 iframe{
 	width: 100vw;
 	height: 600px;
+
+	@media screen and (max-width: $TabletScreenWidth){
+		 
+	}
+
+	@media screen and (max-width: $MobileScreenWidth){
+		 height: 380px;
+	}
 }
